@@ -157,3 +157,10 @@ body{
     font-family: 'Lemonada', cursive;
     font-family: 'Rubik Glitch', cursive;
 }
+.btn-scr{
+    position:absolute;
+    width: 100px;
+    height: 40px;
+    top:10px;
+    left: 10px;
+}

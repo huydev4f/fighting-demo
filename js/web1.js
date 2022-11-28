@@ -1,6 +1,4 @@
-﻿//Web1.js
-var anh1 = new Image();
-anh1.src= "2228c703afbf93fbb37945f500bf51f9_2420045948342127493.png";
+﻿
 //Canvas
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d');
@@ -15,8 +13,6 @@ c.fillRect(0,0,canvas.width,canvas.height);
 const gravity = 0.5;//gia tốc rơi
 const x_speed = 5;// tốc độ di chuyển x
 let damage = 5; //Thiệt hại
-var img = new Image();
-img.src = "image/attack-unscreen.gif";
 
 
 //Create character
