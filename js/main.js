@@ -2,8 +2,8 @@
 //Canvas
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d');
-//canvas.style.backgroundColor = "black";
-canvas.style.backgroundImage = "url('https://i.pinimg.com/564x/46/8e/52/468e52c0e3727972ce6e224f5e052029.jpg')"
+canvas.style.backgroundColor = "black";
+//canvas.style.backgroundImage = "url('https://i.pinimg.com/564x/46/8e/52/468e52c0e3727972ce6e224f5e052029.jpg')"
 canvas.style.backgroundSize = "cover";
 canvas.width = 1024;
 canvas.height = 576;
