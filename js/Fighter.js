@@ -1,5 +1,5 @@
 import { Sprite } from "./Sprite.js";
-import { DAMAGE, GRAVITY } from "./constant.js";
+import { DAMAGE, GRAVITY, GROUNDHEIGHT } from "./constant.js";
 
 export class Fighter extends Sprite {
 
@@ -55,10 +55,11 @@ export class Fighter extends Sprite {
         }
 
         //Gravity
+        const groundHeight = GROUNDHEIGHT ?? 0;
         this.position.y += this.velocity.y;
-        if (this.position.y + this.height + this.velocity.y >= this.canvas.height - 100) {
+        if (this.position.y + this.height + this.velocity.y >= this.canvas.height - groundHeight) {
             this.velocity.y = 0;
-            this.position.y = 330;
+            this.position.y = this.canvas.height - (groundHeight + this.height);
         } else this.velocity.y += GRAVITY;
     }
 

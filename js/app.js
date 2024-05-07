@@ -31,7 +31,7 @@ const player = new Fighter({
     },
     offset: {
       x: 90,
-      y:97,
+      y: 107,
     },
     imageSrc: '../images/Samurai/Idle.png',
     framesMax: 6,
@@ -113,7 +113,7 @@ const enemy = new Fighter({
     },
     offset: {
       x: 90,
-      y:100,
+      y:107,
     },
     imageSrc: '../images/Shinobi/Idle.png',
     framesMax: 6,
