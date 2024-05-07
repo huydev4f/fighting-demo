@@ -1,4 +1,2 @@
-### I don't know how to draw and it has a few minor errors. 🐸
----
- - Player 1: `A` `W` `D` `SPACE`
- - Player 2: `←` `↑` `→` `M`
+ - Player 1: Move by `A` `W` `D` and attack by `SPACE` .
+ - Player 2: Move by `←` `↑` `→` and attack by `↓` .
