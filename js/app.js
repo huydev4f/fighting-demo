@@ -1,6 +1,6 @@
 import { Sprite } from "./Sprite.js";
 import { Fighter } from "./Fighter.js";
-import { JUMP, SPEED } from "./constant.js";
+import { JUMP, SPEED, TIME } from "./constant.js";
 import { determineWiner, rectangularCollision } from "./utils.js";
 
 const canvas = document.querySelector('#canvas');
@@ -14,8 +14,8 @@ const background = new Sprite({
       x: 0,
       y: 0
     },
-    scale: 0.534,
-    imageSrc: '../images/Background/War.png',
+    scale: 1,
+    imageSrc: '../images/Background/Bg2.jpeg',
     canvas: '#canvas',
 });
 
@@ -200,7 +200,7 @@ const keys = {
 };
 
 //Decrease timer
-let timer = 180;
+let timer = TIME;
 let timeId;
 function decreaseTimer(){
 	if(timer > 0){
